@@ -11,8 +11,8 @@
   transition-property: border-color;
   transition-duration: var(--transfotmation-time);
   transition-timing-function: var(--tranformation-function);
-}
 
-.clients-list__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }

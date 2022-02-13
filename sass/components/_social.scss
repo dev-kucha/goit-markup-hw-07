@@ -5,10 +5,10 @@
 .social__item {
   width: 44px;
   height: 44px;
-}
 
-.social__item:not(:last-child) {
-  margin-right: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .social__link {
@@ -21,22 +21,22 @@
   transition-property: color, background-color;
   transition-duration: var(--transfotmation-time);
   transition-timing-function: var(--tranformation-function);
-}
 
-.social__link:hover,
-.social__link:focus {
-  background-color: var(--accent-color);
-  color: var(--white-text-color);
-}
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+  }
 
-.social__link--footer {
-  color: var(--white-text-color);
-  background-color: rgba(255, 255, 255, 0.1);
-}
+  &--footer {
+    color: var(--white-text-color);
+    background-color: rgba(255, 255, 255, 0.1);
 
-.social__link--footer:hover,
-.social__link--footer:focus {
-  background-color: var(--accent-color);
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
+  }
 }
 
 .social__icon {

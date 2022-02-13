@@ -17,10 +17,10 @@
   transition-property: border-color;
   transition-duration: var(--transfotmation-time);
   transition-timing-function: var(--tranformation-function);
-}
 
-.subscribe-form__input:focus {
-  border-color: var(--accent-button-color);
+  &:focus {
+    border-color: var(--accent-button-color);
+  }
 }
 
 .subscribe-form__button {

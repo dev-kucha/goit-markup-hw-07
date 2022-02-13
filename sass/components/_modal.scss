@@ -34,10 +34,10 @@
   transition-property: color;
   transition-duration: var(--transfotmation-time);
   transition-timing-function: var(--tranformation-function);
-}
 
-.close:hover {
-  color: var(--accent-color);
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 
 .close__icon {

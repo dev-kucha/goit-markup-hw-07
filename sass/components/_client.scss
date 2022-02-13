@@ -1,3 +1,10 @@
+.client {
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+
 .client__link {
   display: flex;
   flex-basis: 170px;
@@ -8,16 +15,11 @@
   transition-property: color;
   transition-duration: var(--transfotmation-time);
   transition-timing-function: var(--tranformation-function);
-}
 
-.client__link:hover,
-.client__link:focus {
-  color: var(--accent-color);
-}
-
-.client:hover,
-.client:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .client__logo {

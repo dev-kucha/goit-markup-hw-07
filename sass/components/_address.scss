@@ -10,13 +10,13 @@
   transition-property: color;
   transition-duration: var(--transfotmation-time);
   transition-timing-function: var(--tranformation-function);
-}
 
-.address__link--geo {
-  color: var(--white-text-color);
-}
+  &--geo {
+    color: var(--white-text-color);
+  }
 
-.address__link:hover,
-.address__link:focus {
-  color: var(--white-text-color);
+  &:hover,
+  &:focus {
+    color: var(--white-text-color);
+  }
 }

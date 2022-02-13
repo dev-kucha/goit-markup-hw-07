@@ -28,7 +28,9 @@
   text-align: center;
 }
 
-.hero__button:hover,
-.hero__button:focus {
-  background-color: var(--accent-button-color);
+.hero__button {
+  &:hover,
+  &:focus {
+    background-color: var(--accent-button-color);
+  }
 }

@@ -18,15 +18,15 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--transfotmation-time);
   transition-timing-function: var(--tranformation-function);
+
+  &:hover,
+  &:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .filters__item:not(:first-child) {
   margin-left: 8px;
-}
-
-.filters__button:hover,
-.filters__button:focus {
-  color: var(--white-text-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
