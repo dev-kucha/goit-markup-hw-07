@@ -1,0 +1,27 @@
+.client__link {
+  display: flex;
+  flex-basis: 170px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--decoration-grey-color);
+  transition-property: color;
+  transition-duration: var(--transfotmation-time);
+  transition-timing-function: var(--tranformation-function);
+}
+
+.client__link:hover,
+.client__link:focus {
+  color: var(--accent-color);
+}
+
+.client:hover,
+.client:focus {
+  border-color: var(--accent-color);
+}
+
+.client__logo {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}

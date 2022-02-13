@@ -1,14 +1,25 @@
-body {
-  color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--white-text-color);
-}
-
-p,
-ul {
-  margin: 0;
-}
-
-a {
-  color: var(--accent-color);
-}
+@import './utils/variables';
+@import './base/base';
+@import './components/header';
+@import './components/logo';
+@import './components/menu';
+@import './components/site-nav';
+@import './components/contacts';
+@import './components/hero';
+@import './components/feature-list';
+@import './components/occupation-list';
+@import './components/occupation-item';
+@import './components/team';
+@import './components/team-item';
+@import './components/social';
+@import './components/clients-list';
+@import './components/client';
+@import './components/filters';
+@import './components/examples';
+@import './components/example-item';
+@import './components/footer';
+@import './components/address';
+@import './components/subscribe-form';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-form';
