@@ -742,6 +742,7 @@ a {
 .close {
   position: absolute;
   display: flex;
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   width: 30px;
